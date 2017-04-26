@@ -7,8 +7,10 @@ var rna = require('./controllers/rna');
 
 var extend = require('util')._extend;
 
-module.exports = extend(
-  metadata,
-  rna,
-  variants,
-  features);
+module.exports = function(options) {
+  return extend(
+          metadata,
+          rna,
+          variants,
+          features)
+};
