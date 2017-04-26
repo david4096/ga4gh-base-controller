@@ -1,3 +1,3 @@
-exports.searchFeatures = function(call, callback) {
-  callback(null, {});
+exports.SearchFeatures = function(call, callback) {
+  callback(null, {features: []});
 };

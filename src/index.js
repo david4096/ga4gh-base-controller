@@ -8,9 +8,8 @@ var rna = require('./controllers/rna');
 var extend = require('util')._extend;
 
 module.exports = function(options) {
-  return extend(
+  return Object.assign(
           metadata,
           rna,
           variants,
-          features)
-};
+          features)};

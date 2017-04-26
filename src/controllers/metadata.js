@@ -1,3 +1,3 @@
-exports.searchDatasets = function(call, callback) {
+exports.SearchDatasets = function(call, callback) {
   callback(null, {datasets: []});
 };

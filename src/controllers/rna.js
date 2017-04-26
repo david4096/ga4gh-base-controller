@@ -1,12 +1,12 @@
-exports.searchRnaQuantificationSets = function(call, callback) {
+exports.SearchRnaQuantificationSets = function(call, callback) {
   callback(null, {next_page_token: '5'});
 };
 
-exports.searchRnaQuantifications = function(call, callback) {
+exports.SearchRnaQuantifications = function(call, callback) {
   callback(null, {next_page_token: '5'});
 };
 
-exports.searchExpressionLevels = function(call, callback) {
+exports.SearchExpressionLevels = function(call, callback) {
   // get sample ID list from request
 
   // get feature ID list from request
